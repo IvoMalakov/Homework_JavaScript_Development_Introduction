@@ -1,6 +1,10 @@
 function digitalClock() {
     var hours = new Date().getHours();
 
+    if (hours < 10) {
+        hours = 0 + new Date().getHours();
+    }
+
     var minutes = new Date().getMinutes();
 
     if (minutes < 10) {

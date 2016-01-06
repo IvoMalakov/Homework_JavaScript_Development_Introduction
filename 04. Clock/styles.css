@@ -1,0 +1,29 @@
+* {
+    paddin: 0;
+    margin:0;
+}
+
+body {
+    font-family: Arial;
+}
+
+#wrapper {
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+#wrapper > h1 {
+    font-size: 70px;
+}
+
+#wrapper > h1 > p {
+    padding-top: 30px;
+}
+
+#wrapper > p > span {
+    font-weight: bold;
+    text-align: center;
+    color: deepskyblue;
+    font-size: 60px;
+}
