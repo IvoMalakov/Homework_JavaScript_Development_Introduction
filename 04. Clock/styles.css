@@ -17,8 +17,8 @@ body {
     font-size: 70px;
 }
 
-#wrapper > h1 > p {
-    padding-top: 30px;
+#wrapper > p {
+    padding-top: 50px;
 }
 
 #wrapper > p > span {
